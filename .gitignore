@@ -1,0 +1,19 @@
+# Python virtual environment and generated files
+.venv/
+.venv-3.14/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and data
+.env
+.env.*
+!.env.example
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
